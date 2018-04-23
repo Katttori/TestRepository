@@ -13,6 +13,7 @@ namespace Tests
             int a = 600;
             int b = 9;
             byte c = checked((byte)(a + b));
+            Console.WriteLine("Master hello!");
             Console.WriteLine($"{a}");
         }
     }
